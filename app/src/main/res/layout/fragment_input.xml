@@ -42,7 +42,6 @@ tools:context="com.cyros.phelios.katathli.HomeActivity$InputFragment">
         android:layout_alignRight="@+id/sadButton"
         android:layout_alignEnd="@+id/sadButton"
         android:layout_marginTop="50dp"
-        android:onClick="onHappyButtonClicked"
         android:layout_gravity="center"
         android:background="#ff00abc8"
         android:backgroundTint="#ff7feaff"
@@ -58,7 +57,6 @@ tools:context="com.cyros.phelios.katathli.HomeActivity$InputFragment">
         android:layout_marginTop="45dp"
         android:background="#adc2000a"
         android:longClickable="false"
-        android:onClick="onSadButtonClicked"
         android:layout_gravity="center_horizontal|top" />
 
 </FrameLayout>
@@ -97,8 +95,7 @@ tools:context="com.cyros.phelios.katathli.HomeActivity$InputFragment">
         android:id="@+id/sendStatus"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="onSendEventButtonClicked" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 </LinearLayout>
